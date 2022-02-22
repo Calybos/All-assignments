@@ -1,0 +1,43 @@
+Q1. Integer
+
+Q2.integer
+
+Q3. String
+
+Q4. Integer
+
+Q5. Boolean
+
+6. List
+
+7. Tuple
+
+8. Dictionary
+
+9. Complex number
+
+10. Float
+
+11.z= {'one':1, 'two':2, 'three':3}
+   z['two']
+
+12.y =  (8,9,10)
+ 
+
+Section B
+
+1. Since the characters (one, two and three) are not defined, it returns an error.
+   The corrent way should be;
+   d = {'one':1, 'two':2, 'three':3}
+   d['one']
+
+14. The boolean keyword 'False' is case sensitive, writing the 'F' as 'f' renders an error.
+    The corrent way should be;    
+    f = False 
+    not f
+
+
+1. The list index ranges from 0 - 2 hence calling an index such as 3, wil give an error.
+  The corrent way should be;
+  lst = [1,3,5]
+  lst[3]
